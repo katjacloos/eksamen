@@ -1,0 +1,29 @@
+/* Mobil */
+@media (max-width: 768px) {
+    /* mobil layout */
+    .main-container {
+        flex-direction: column;
+    }
+    .logo img {
+        max-width: 300px;
+    }
+    .left-image {
+        position: static; 
+        width: 100%; 
+        height: 40vh; 
+        margin-top: 4rem;
+    }
+    .right-section {
+        margin-left: 0;
+        padding: 1.5rem;
+        padding-bottom: 5rem;
+    }
+
+    footer {
+        bottom: 0;
+        left: 0; 
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+}
